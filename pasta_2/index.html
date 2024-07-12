@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Título da página no navegador-->
+    <title>Fundamentos do HTML</title>
+</head>
+<body style="margin-bottom: 1000px;">
+    <p>Iniciando os Fundamentos</p>
+
+    <!-- Aqui é um título principal-->
+
+    <!--Títulos-->
+    <h1>Meu blog de Viagens</h1>
+
+    <h2>Destinos populares</h2>
+
+    <h3>Europa</h3>
+    <h4>Itália</h4>
+    <p>Descubra as belezas da Itália...</p>
+
+    <h3>Ásia</h3>
+    <h4>Japão</h4>
+    <p>Falando em Japão...</p>
+
+
+    <!--Parágrafos-->
+    <p>Textos onde temos uma quantidade de parágrafos maior</p>
+
+    <!--Atributos-->
+    <!-- Específicos = alt, href, src-->
+    <!-- Gerais = classes, ids (CSS, JS)-->
+
+    <!-- DIV = CRIAR UMA SEÇÃO NO SITE-->
+
+    <!-- id = tem que ser unico (elemento único na página)-->
+    <div id="secao-principal">Bloco de cóidigos</div>
+
+    <!-- class = pode ser repetido-->
+    <div class="secao-secundaria">Seção Secundária 1</div>
+    <div class="secao-secundaria">Seção Secundária 2</div>
+    <div class="secao-secundaria">Seção Secundária 3</div>
+
+
+    <!-- Acessibilidade-->    
+    <div>
+        <img src="img/img1.jpg" alt="Um castelo na Europa"/>
+    </div>  
+    
+
+    <!-- Imagem Externa-->
+    <div>
+        <img src="https://w7.pngwing.com/pngs/241/797/png-transparent-cascading-style-sheets-css3-javascript-logo-world-wide-web-blue-angle-text-thumbnail.png" alt="Logo CSS">
+    </div>
+    
+
+
+    <!--Listas-->
+    <!-- Ol => Ordered List-->
+    <ol>
+        <li>Iniciar o Computador</li>
+        <li>Abrir o Navegador</li>
+        <li>Acessar o site desejado</li>
+    </ol>
+
+
+    <!--Ul => Unordered Lists-->
+    <ul>
+    <li>Maçãs</li>
+    <li>Bananas</li>
+    <li>Abacates</li>
+    </ul>
+
+    <!--Alinhamento-->
+    <ul>
+        <li>Frutas</li>
+        <ul>
+            <li>Maçãs</li>
+            <li>Bananas</li>
+        </ul>
+        <li>Verduras</li>
+        <ul>
+            <li>Cenoura</li>
+            <li>Ervilha</li>
+        </ul>
+        <li>Legumes</li>
+        <ul>
+            <li>Batata</li>
+            <li>Beringela</li>
+        </ul>
+    </ul>
+
+
+<!--Elementos para Formatação (negrito, itálico)-->
+<!--spam => tag para estilos de texto sem semantica-->
+<p>
+    Este <strong> texto é muito importante</strong>, <b>e este daqui também!</b>
+</p>
+
+<p>Preciso <em>enfatizar este texto aqui</em>, <i>este também.</i></p>
+
+<p>Preciso <s>riscar este texto</s>, este não.</p>
+
+<p><mark>Preciso marcar este texto</mark>, este aqui não</p>
+
+<p><small>Este texto é menor</small>, este não.</p>
+
+<p><coode>var a = 1;</coode></p>
+
+<p>E=mc<sup>2</sup> H<sub>2</sub>O</p>
+
+<!--Elementos inline e de bloco-->
+<!-- Inline => são os elementos que ficam na mesma linha-->
+<!--Bloco => são os elementos que pulam de linha (usa-se o <div>)-->
+    <p>Elemento de bloco, 
+        <strong>mas os elementos de formatação são inline</strong></p> 
+
+
+    <p>Elemento de bloco,
+        <strong>mas os elementos de formatação são inline</strong>
+    </p>
+
+    <div>
+        Elemento de bloco
+        <div>Elemento tambpem de bloco</div>
+        Estou na próxima linha
+    </div>
+
+
+    <!--div => são elementos que servem apra criar "caixas" em nosso site (seção, card produto, rodapé)-->
+
+<div id="cabeçalho">
+    <h1>Título da página</h1>
+</div>
+
+<div id="corpo-do-site">
+    <p>Texto 1</p>
+    <p>Texto 2</p>
+    <p>Texto 3</p>
+</div>
+
+<div id="rodape">
+    <p>Direitos autorais - 2024</p>
+</div>
+
+</body>
+</html>
